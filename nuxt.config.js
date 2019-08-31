@@ -34,6 +34,14 @@ module.exports = {
         })
       }
     }
+  },
+  modules: [
+  '@nuxtjs/vuetify',
+  '@nuxtjs/axios'
+  ],
+    axios: {
+    host: 'localhost',
+    port: 5000,
+    prefix: '/api/v1'
   }
 }
-
